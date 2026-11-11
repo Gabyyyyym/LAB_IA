@@ -1,0 +1,4 @@
+,Modelo se abstiene (lista vacía),Modelo devuelve punto
+Escena insegura,TP = 0,FN = 0
+Escena segura,FP = 0,TN = 0
+Precision / Recall / F1,— / — / —,N = 0

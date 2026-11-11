@@ -1,0 +1,76 @@
+{
+  "tabla4": {
+    "d_esquinas_m": 0.29760362901013154,
+    "error_pct": 0.2032420909533861
+  },
+  "tabla6": {
+    "acc_D": 0.5555555555555556,
+    "acc_P": 0.6666666666666666,
+    "k_D": 5,
+    "k_P": 6,
+    "N_D": 9,
+    "N_P": 9,
+    "IC_D": [
+      0.2666473457440297,
+      0.811224570528086
+    ],
+    "IC_P": [
+      0.35419734749908977,
+      0.879418401317257
+    ],
+    "brecha": -0.11111111111111105,
+    "brecha_IC": [
+      -0.46990249101499876,
+      0.2926260814264022
+    ]
+  },
+  "tabla7": {
+    "mIoU": NaN,
+    "precision": NaN,
+    "recall": NaN,
+    "TP": 0,
+    "FP": 0,
+    "FN": 0,
+    "iou_por_objeto": {}
+  },
+  "tabla8": {
+    "MAE_con_mm": NaN,
+    "RMSE_con_mm": NaN,
+    "MAE_sin_mm": NaN,
+    "RMSE_sin_mm": NaN,
+    "N_con": 0,
+    "N_sin": 0,
+    "ablacion_pareada": "1/1",
+    "altura": []
+  },
+  "tabla9": {},
+  "tabla10": {
+    "TP": 0,
+    "FP": 0,
+    "FN": 0,
+    "TN": 0,
+    "precision": NaN,
+    "recall": NaN,
+    "f1": NaN,
+    "exito_acc": NaN,
+    "exito_N": 0
+  },
+  "avisos": [
+    "verdad_terreno.csv: 1 fila(s) sin caja u_min..v_max (agarre_s3); esas consultas no pueden contar como acierto.",
+    "No existe espacio_trabajo.json: las Tablas 10b y 10c no validan el volumen.",
+    "Exp. 1: Seguridad P tiene 2 repeticiones (mínimo 3).",
+    "Exp. 1: Pertenencia D tiene 2 repeticiones (mínimo 3).",
+    "Exp. 1: Estado D tiene 2 repeticiones (mínimo 3).",
+    "Exp. 1: Estado P tiene 2 repeticiones (mínimo 3).",
+    "Exp. 1: Contención D tiene 1 repeticiones (mínimo 3).",
+    "Exp. 1: Contención P tiene 1 repeticiones (mínimo 3).",
+    "Exp. 1: Relacional (prompt propio) D tiene 1 repeticiones (mínimo 3).",
+    "Exp. 1: Relacional (prompt propio) P tiene 1 repeticiones (mínimo 3).",
+    "Exp. 1: Relacional (prompt ingenuo) D tiene 1 repeticiones (mínimo 3).",
+    "Exp. 3: dist1 registro=no tiene 1 consultas (mínimo 2).",
+    "Exp. 3: dist2 registro=no tiene 0 consultas (mínimo 2).",
+    "Exp. 3: dist3 registro=no tiene 0 consultas (mínimo 2).",
+    "Exp. 3: dist4 registro=no tiene 0 consultas (mínimo 2).",
+    "Exp. 3: dist5 registro=no tiene 0 consultas (mínimo 2)."
+  ]
+}

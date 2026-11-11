@@ -1,0 +1,7 @@
+Config.,Posición en la imagen,d_real (m),d_est con registro (m),e con registro (mm),d_est sin registro (m),e sin registro (mm)
+dist1,centro,25.000,—,— (2 sin prof.),—,— (1 sin prof.)
+dist2,centro,15.000,—,— (2 sin prof.),—,—
+dist3,centro,15.000,—,— (2 sin prof.),—,—
+dist4,borde,53.160,—,— (2 sin prof.),—,—
+dist5,borde,53.160,—,— (2 sin prof.),—,—
+MAE / RMSE (N = 0 / 0),,,,— / —,,— / —

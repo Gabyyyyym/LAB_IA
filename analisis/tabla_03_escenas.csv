@@ -1,0 +1,30 @@
+Escena,Color,% píxeles de profundidad válidos,Desfase color-prof. (ms),Nota
+agarre_i1,1920×1080,89.5 %,41.5,Igual que la anterior pero RETIRE la caja libre: solo queda la caja con el termo encima.
+agarre_i2,1920×1080,88.2 %,6.5,"Mano abierta a menos de 5 cm de la caja. SOLO la mano: sin anillos, reloj, tatuajes ni manga con logos."
+agarre_i3,1920×1080,88.7 %,43.8,Caja volcada de lado o apoyada en un borde (inestable).
+agarre_s1,1920×1080,89.7 %,33.5,"Caja sola y libre, cerca del centro."
+agarre_s2,1920×1080,87.4 %,30.0,Caja libre; termo y cuaderno a más de 10 cm de ella.
+agarre_s3,1920×1080,90.6 %,15.6,"Caja libre girada unos 45°, en otra zona de la imagen."
+altura1,1920×1080,89.3 %,23.3,"Caja sola sobre la mesa, cerca del centro. Mida su altura con la regla. h = 0.500 m"
+burger,1920×1080,88.4 %,14.7,"Una caja SOBRE la bandeja y la otra FUERA, a ~10 cm."
+burgerp,1920×1080,86.0 %,12.8,Bandeja al otro lado de la imagen; una caja sobre ella y la otra fuera en otra posición; termo como distractor.
+dist1,1920×1080,87.5 %,48.6,"Termo y caja cerca del centro de la imagen, a ~20–25 cm entre centros. d_horizontal = 25.000 m, dh = 0.000 m -> d = 25.000 m"
+dist2,1920×1080,86.8 %,9.5,"Centro de la imagen, otra separación (~15 cm). d_horizontal = 15.000 m, dh = 0.000 m -> d = 15.000 m"
+dist3,1920×1080,87.8 %,43.9,"Centro de la imagen, en diagonal o ~30 cm. d_horizontal = 15.000 m, dh = 0.000 m -> d = 15.000 m"
+dist4,1920×1080,88.8 %,25.5,"Uno de los dos objetos CERCA DEL BORDE izquierdo de la imagen, sin salirse. d_horizontal = 15.000 m, dh = 51.000 m -> d = 53.160 m"
+dist5,1920×1080,89.3 %,42.2,"Uno de los dos CERCA DEL BORDE derecho (o superior), sin salirse. d_horizontal = 15.000 m, dh = 51.000 m -> d = 53.160 m"
+exito_antes1,1920×1080,88.2 %,39.2,"Caja FUERA de la bandeja, a ~10 cm."
+exito_antes2,1920×1080,87.8 %,37.9,Otra posición inicial: caja y bandeja en lugares distintos a los de 'antes 1'.
+exito_bien1,1920×1080,88.0 %,42.5,Meta a mano la caja DENTRO de la bandeja. Retire la mano antes de capturar.
+exito_bien2,1920×1080,87.8 %,19.0,Caja DENTRO de la bandeja. Retire la mano.
+exito_mal1,1920×1080,85.5 %,41.3,"Vuelva al estado de 'antes 1' y deje la caja JUNTO a la bandeja (tocándola), no dentro."
+exito_mal2,1920×1080,86.8 %,15.3,"Desde 'antes 2': caja apoyada en el borde de la bandeja, medio afuera."
+regla,1920×1080,89.8 %,50.2,"Hoja HORIZONTAL (lado largo de izquierda a derecha en la imagen), centrada y plana. Nada más sobre la mesa. Z = 1.000 m"
+semantica1,1920×1080,88.7 %,20.4,Cajas separadas ~10 cm. Termo de pie ENCIMA de la caja derecha; la izquierda queda libre.
+semantica1p,1920×1080,89.1 %,56.8,Cajas en otras posiciones (p. ej. en diagonal). Cuaderno encima de la caja IZQUIERDA. Bandeja vacía a un lado.
+semantica2,1920×1080,90.3 %,49.8,Celulares separados ~15 cm; llaves pegadas (<3 cm) a uno de ellos.
+semantica2p,1920×1080,87.8 %,6.7,Celulares girados en otras posiciones; llaves junto al OTRO celular; esfero como distractor.
+semantica3,1920×1080,87.1 %,31.3,Un cuaderno abierto (páginas en blanco) y otro cerrado.
+semantica3p,1920×1080,89.6 %,14.8,Posiciones intercambiadas (el abierto al otro lado); estuche como distractor.
+semantica4,1920×1080,88.4 %,20.5,Un esfero DENTRO del estuche abierto; dos esferos sueltos fuera.
+semantica4p,1920×1080,86.8 %,22.2,Otro esfero dentro; uno apoyado SOBRE el borde del estuche (no dentro); uno suelto.

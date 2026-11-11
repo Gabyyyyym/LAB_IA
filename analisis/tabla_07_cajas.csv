@@ -1,0 +1,2 @@
+Escena,Objeto,IoU medio ± σ con la verdad,σ de coordenadas (px),IoU medio entre repeticiones,TP / FP / FN (IoU ≥ 0.5)
+Global,,mIoU: —,,,Precision: — · Recall: —

@@ -1,0 +1,5 @@
+thinking_level,Accuracy,Latencia media ± σ (s),Decisiones por minuto,Tokens de pensamiento (media),Tokens totales (media),¿Aceptó el nivel?
+low,—,—,—,—,—,sin consultas
+high,—,—,—,—,—,sin consultas
+minimal,—,—,—,—,—,sin consultas
+medium,—,—,—,—,—,sin consultas

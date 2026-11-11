@@ -1,0 +1,13 @@
+Parámetro,Valor,Fuente
+Resolución de color (640x480),640x480,default_color_calib_640x480.ini (kinova_vision)
+f_x / f_y (px),653.7 / 651.9,default_color_calib_640x480.ini (kinova_vision)
+c_x / c_y (px),311.8 / 232.4,default_color_calib_640x480.ini (kinova_vision)
+Campo de visión horizontal (°),52.2,2·atan(W / 2f_x)
+Resolución de color (1920x1080),1920x1080,calibración rápida (regla: 0.297 m a 0.598 m)
+f_x / f_y (px),1679.2 / 1679.2,calibración rápida (regla: 0.297 m a 0.598 m)
+c_x / c_y (px),960.0 / 540.0,calibración rápida (regla: 0.297 m a 0.598 m)
+Campo de visión horizontal (°),59.5,2·atan(W / 2f_x)
+Distancia 3D entre esquinas de la hoja (m),1.0999,resultados.csv fila 2-3
+Error de verificación respecto a 0.297 m (%),+270.32 ⚠ > 5 %,2026-11-09T19:53:22
+Distancia 3D entre esquinas de la hoja (m),0.2976,resultados.csv fila 4-5
+Error de verificación respecto a 0.297 m (%),+0.20,2026-11-09T21:27:06

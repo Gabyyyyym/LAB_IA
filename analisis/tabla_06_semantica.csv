@@ -1,0 +1,8 @@
+Relación,Aciertos D,Aciertos P,JSON inválidos (D + P),Latencia media ± σ (s),Observación del error,Filas CSV
+Seguridad,0 / 3,0 / 2,0,2.50 ± 0.91,(describir),"11, 20, 29, 12, 21"
+Pertenencia,2 / 2,3 / 3,0,3.19 ± 0.69,(describir),"13, 22, 14, 23, 30"
+Estado,2 / 2,2 / 2,0,3.08 ± 0.73,(describir),"15, 24, 16, 25"
+Contención,1 / 1,1 / 1,0,3.51 ± 1.04,(describir),"17, 26"
+Relacional (prompt propio),0 / 1,0 / 1,0,3.67 ± 2.62,(describir),"27, 28"
+Relacional (prompt ingenuo),0 / 1,—,0,40.58,(describir),18-19
+Accuracy global (sin ingenuo),"D: 0.56 [0.27, 0.81] (N=9)","P: 0.67 [0.35, 0.88] (N=9)",,,"Brecha D − P: -0.11 [-0.47, 0.29] (IC95 incluye 0: no se declara diferencia)",

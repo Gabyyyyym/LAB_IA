@@ -1,0 +1,40 @@
+escena,particion,relacion,objeto_esperado,u_min,v_min,u_max,v_max,segura,d_real_m,nota
+# PRE-REGISTRO (Fase 1). Llenar las cajas u_min..v_max (px de la imagen de color 1920x1080) con GIMP sobre capturas/<escena>_color.png ANTES de consultar a Gemini. Luego commit "verdad de terreno pre-registrada" y anotar su SHA (evidencia E5).
+# Las filas que empiezan con # se ignoran. En objeto_esperado | separa sinónimos aceptados para la etiqueta (Exp. 2) o los dos objetos medidos (Exp. 3).
+# --- Fase 3: calibración (d_real_m = ancho de la hoja A4 horizontal) ---
+regla,-,calibracion,hoja A4 (esquinas superiores),,,,,,0.297,Z cámara-hoja medida = ____ m
+# --- Fase 5 / Exp. 1: una fila por escena con la caja del objeto que satisface la instrucción ---
+semantica1,D,seguridad,caja de hamburguesa libre,225,95,733,1075,si,,D: dos cajas; termo encima de una
+semantica1p,P,seguridad,caja de hamburguesa libre,353,392,1592,899,si,,P: otras posiciones; cuaderno encima de una; bandeja como distractor
+semantica2,D,pertenencia,celular junto a las llaves,978,312,1718,1079,,,D: dos celulares; llaves junto a uno
+semantica2p,P,pertenencia,celular junto a las llaves,228,589,1431,1079,,,P: celulares girados en otras posiciones; llaves junto al otro; esfero como distractor
+semantica3,D,estado,cuaderno abierto,1048,187,1919,1075,,,D: un cuaderno abierto y otro cerrado
+semantica3p,P,estado,cuaderno abierto,79,9,1121,1033,,,P: posiciones intercambiadas; otro cuaderno; estuche como distractor
+semantica4,D,contencion,esfero dentro del estuche,563,275,1101,1079,,,D: un esfero dentro del estuche abierto y dos sueltos
+semantica4p,P,contencion,esfero dentro del estuche,470,244,1160,1079,,,P: otro color de esfero dentro; uno apoyado SOBRE el estuche (no dentro)
+burger,D,relacional,caja de hamburguesa fuera de la bandeja,1361,0,1916,1001,,,D: dos cajas; una sobre la bandeja y otra fuera
+burgerp,P,relacional,caja de hamburguesa fuera de la bandeja,650,113,1094,763,,,P: bandeja al otro lado; termo como distractor
+# --- Fase 6 / Exp. 2: una fila por objeto visible (relacion = cajas) ---
+semantica1,-,cajas,caja de hamburguesa|caja|box,227,92,719,1076,,,caja libre
+semantica1,-,cajas,caja de hamburguesa|caja|box,1146,52,1755,1042,,,caja con el termo encima
+semantica1,-,cajas,termo|botella|thermos,1198,346,1723,745,,,
+burger,-,cajas,caja de hamburguesa|caja|box,44,0,1007,1075,,,caja sobre la bandeja
+burger,-,cajas,caja de hamburguesa|caja|box,1366,0,1920,1006,,,caja fuera de la bandeja
+burger,-,cajas,bandeja|tray,81,104,332,1079,,,
+# --- Fase 7 / Exp. 3: d_real_m medida con cinta entre los centros de las tapas; en nota: centro o borde ---
+# Si las tapas están a distinta altura: d_real = sqrt(d_horizontal^2 + dh^2) con dh medida.
+dist1,-,distancia,tapa termo|tapa caja,,,,,,25.0000,centro
+dist2,-,distancia,tapa termo|tapa caja,,,,,,15.0000,centro
+dist3,-,distancia,tapa termo|tapa caja,,,,,,15.0000,centro
+dist4,-,distancia,tapa termo|tapa caja,,,,,,53.1601,borde
+dist5,-,distancia,tapa termo|tapa caja,,,,,,53.1601,borde
+# Altura de un objeto sobre la mesa (primer punto = mesa junto al objeto; segundo = centro de la tapa)
+altura1,-,altura,mesa|tapa caja,,,,,,0.5000,altura real de la caja medida con regla
+# --- Fase 9 / Exp. 5: agarre (segura = si/no) con la caja del objeto objetivo ---
+agarre_s1,-,agarre,caja de hamburguesa,727,83,1281,1078,si,,caja sola y libre
+agarre_s2,-,agarre,caja de hamburguesa,101,90,623,1066,si,,caja libre con otros objetos lejos
+agarre_s3,-,agarre,caja de hamburguesa,,,,,si,,caja libre girada en otra posición
+agarre_i1,-,agarre,caja de hamburguesa,1164,14,1755,1036,no,,objeto encima (termo sobre la caja)
+agarre_i2,-,agarre,caja de hamburguesa,1395,370,1920,1075,no,,mano cerca (solo la mano; sin anillos ni tatuajes)
+agarre_i3,-,agarre,caja de hamburguesa,678,113,1659,1079,no,,caja volcada o apoyada en un borde (inestable)
+# Detección de éxito: el resultado esperado sale del nombre de la escena "después" (exito_bien* = true, exito_mal* = false).

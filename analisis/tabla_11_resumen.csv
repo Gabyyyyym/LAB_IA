@@ -1,0 +1,7 @@
+Métrica,Valor ± dispersión,N,Experimento,¿Confirma la hipótesis de la Fase 1?
+Accuracy semántica en D / en P,"0.56 [0.27, 0.81] / 0.67 [0.35, 0.88]",9 / 9,1,(contrastar)
+mIoU y Precision / Recall de detección,— · — / —,0,2,(contrastar)
+RMSE 3D con / sin registro (mm),— / —,0 / 0,3,(contrastar)
+Latencia low / high (s),— / —,0 / 0,4,(contrastar)
+Precision / Recall / F1 del rechazo de agarres inseguros,— / — / —,0,5,(contrastar)
+Accuracy de detección de éxito,—,0,5,(contrastar)
